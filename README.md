@@ -1,3 +1,7 @@
+# Peer-2-Peer Image Distribution
+
+This is a simple project on sharing images between other clients on a network in a peer-2-peer way. A [Distributed Hash Table](https://en.wikipedia.org/wiki/Distributed_hash_table) is utilized to share the content information between the clients.
+
 # How to Use
 1. Go into both directories for each application where the .java files are located and run ``javac *.java``
 2. The DHT servers need to be started first, so go into the directory ``Distributed Hash Table\bin\``
