@@ -16,11 +16,14 @@
 
 The output should resemble something like this:
 
+![](https://github.com/TroyFernandes/Distributed-Hash-Table---P2P-Application/blob/master/Demo%20Images/Servers_Example.PNG)
 
 5. Now the P2P application needs to be run. Head into the ``P2P Application\bin\`` folder and run this command:
 ``java UI serverIP serverPort firstDHTNodeIP firstDHTNodePort``
 6. This is important, the ``serverIP`` and ``serverPort`` must be different than those used for the DHT servers as this is the server in which the P2P Clients communicate with EACH OTHER (NOT the DHT Servers). However, ``firstDHTNodeIP`` and ``firstDHTNodePort`` MUST be the same fields as those you gave ``ServerID = 0`` to. (e.g in the example above, these values are ``localhost`` and ``20670``)
 **IMPORTANT:** Choose ports for each P2P Client which are two apart. For example, if you choose port 20674 for P2P Client 1, then choose port 20676 for P2P Client 2.
 7. Now you can interact with the GUI Interface
+
+![](https://github.com/TroyFernandes/Distributed-Hash-Table---P2P-Application/blob/master/Demo%20Images/GUI_Example.PNG)
 
 8.  As a quick demonstration, you can use Client 1 to upload a file to the DHT Servers, and on Client 2 you can set your **Download Directory**, click the **Start Fileserver** button, click the **Get Available Files** Button, then  enter in the filename into the **File to Get** from the available files field which shows up and then click **Get Fil**e. The file will now be where you set your **Download Directory**. 
